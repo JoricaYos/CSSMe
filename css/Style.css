@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+}
+body{
+  background-color: #040113;
+  color: #ededed;
+  background-image: linear-gradient(to right, #000000,#150a48,#000000);
+}
+.header{
+  position: fixed;
+  top: 0;
+  margin: 0;
+  width: 100%;
+  padding: 7px 10px;
+  background: rgb(1, 1, 16);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  font-size: 25px;
+  color: rgba(99, 207, 26, 0.753);
+  text-decoration: none;
+  font-weight: 800;
+}
+.navbar a{
+  font-size: 15px;
+  color: floralwhite;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 35px;
+
+}
+.navbar a:hover,
+.navbar a:active{
+  color:  rgba(99, 207, 26, 0.753);
+}
+#Home{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 0 15%;
+  
+}
+.myimg img{
+  float: right;
+  border-radius: 50%;
+}
+.content{
+  max-width: 700px;
+}
+.content h1{
+  font-size: 45px;
+  font-weight: 700;
+}
+.content h2{
+  font-size: 30px;
+  color: aqua;
+}
+.content p{ 
+  font-size: 15px;
+  font-style: italic;
+}
+.home_icon{
+  position: absolute;
+  bottom: 30px;
+  width: 170px;
+  display: flex;
+  justify-content: space-between;
+}
+.home_icon a{
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: 1px solid;
+  border-radius: 50px;
+  font-size: 20px;
+  color: #00abf0;
+  text-decoration: none;
+  z-index: 1;
+  overflow: hidden;
+}
+#About{
+  box-sizing: border-box;
+  margin: 50px;
+}
+#About p{
+  max-width: 80%;
+}
+#About h1{
+  color: aqua;
+  border-left: solid;
+  width: 5px;
+  font-size: 50px;
+}
+#About p:hover{
+  color: goldenrod;
+}
+#About h4{
+  float: inline-end;
+  border-bottom-style: groove;
+  border-color: red;
+  width: 85px;
+}
+#About h4:hover{
+  color: aqua;
+}
+.hobbies{
+  margin: 50px;
+  height: 50vh;
+}
+.hobbies h1{
+  font-size: 50px;
+  border-left: aqua solid;
+  color: aqua;
+  width: 5px
+}
+#Family{
+  margin: 50px;
+  max-width: 100%;
+}
+#Family h1{
+
+  font-size: 50px;
+  border-left: aqua solid;
+  color: aqua;
+  width: 5px
+}
+#Family h2{
+  max-width: 90%;
+  font-weight: lighter;
+  font-style: italic;
+}
+#Family img{
+  display: inline-block;
+
+  padding-inline: 20px;
+  border-radius: 10px;
+}
+hr{
+  border-color: #00abf0;
+}
+#Friends{
+  margin: 50px;
+  max-width: 100%;
+}
+#Friends h1{
+  font-size: 50px;
+  border-left: aqua solid;
+  color: aqua;
+  width: 5px
+}
+#Friends h2{
+  max-width: 90%;
+  font-weight: lighter;
+  font-style: italic;
+}
